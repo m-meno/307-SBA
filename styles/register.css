@@ -4,7 +4,18 @@
     font-weight: 500;
     font-style: normal;
  }
-    
+ 
+
+#cat{
+    transition: all 2s;
+}
+ 
+#cat:hover{
+    width: 300px;
+    transform: rotate(360deg);
+   
+} 
+
 h3{
     text-align: center;
 }

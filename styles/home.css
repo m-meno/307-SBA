@@ -13,13 +13,15 @@
     font-size: large;
  }
 
+button:hover{
+    background-color: red
+}
 
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-
 }
 
 li a {
@@ -57,7 +59,37 @@ section{
     margin-left: 2rem;
 }
 
-.images{
-    transition: 
+.welcome{
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+
+
+#dog{
+    transition: all 2s;
+}
+
+#dog:hover{
+    transform: scale(1.1)
+}
+
+#orangecat{
+    transition: all 2s;
+}
+
+#orangecat:hover{
+    transform: scale(1.1)
+}
+
+#cat{
+    transition: all 2s;
+}
+
+#cat:hover{
+    transform: scale(1.1)
 }
 
