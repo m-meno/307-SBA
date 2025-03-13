@@ -1,0 +1,63 @@
+*{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+ }
+.nav{
+    transition: all 2s;
+}
+
+ .nav:hover{
+    color: red; 
+    font-size: large;
+ }
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+
+
+}
+li {
+    float:left;
+    border-right: 1px solid black;
+}
+
+table {
+    border: solid black 1px
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+td {
+    border: solid black 1px;
+    width: 15rem;
+    height: 3rem; 
+}
+
+.head{
+    font-weight: bolder;
+}
+
+section{
+    margin-left: 2rem;
+}
+
+.images{
+    transition: 
+}
+

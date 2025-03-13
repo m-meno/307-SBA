@@ -1,0 +1,57 @@
+*{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+ }
+    
+h3{
+    text-align: center;
+}
+.nav:hover{
+   color: red;
+   font-size: large; 
+}
+
+.nav{
+    transition: all 2s;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+
+
+}
+li {
+    float:left;
+    border-right: 1px solid black;
+}
+
+
+.section1{
+    display:flex;
+    justify-content: center;
+}
+
+.register{
+    margin: 0.5rem;
+}
+
+.gif{
+    display: flex;
+    justify-content: center;
+
+}
+
+/*
+README.de*/
