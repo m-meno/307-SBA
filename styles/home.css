@@ -4,17 +4,22 @@
     font-weight: 500;
     font-style: normal;
  }
+ 
 .nav{
     transition: all 2s;
 }
 
  .nav:hover{
-    color: red; 
+    color: #343f31; 
     font-size: large;
  }
 
+ a{
+    color: rgb(95, 119, 53)
+ }
+
 button:hover{
-    background-color: red
+    background-color: rgb(196, 217, 159); 
 }
 
 ul{

@@ -6,7 +6,7 @@
  }
  
 
-#cat{
+/* #cat{
     transition: all 2s;
 }
  
@@ -14,13 +14,20 @@
     width: 300px;
     transform: rotate(360deg);
    
-} 
+}  */
 
 h3{
     text-align: center;
+    font-weight: bold;
+    font-size: larger;
 }
+
+a{
+    color: rgb(95, 119, 53)
+ }
+
 .nav:hover{
-   color: red;
+   color: #343f31;
    font-size: large; 
 }
 
@@ -64,5 +71,10 @@ li {
 
 }
 
-/*
-README.de*/
+.box1{
+    text-align: center;
+}
+
+button:hover{
+    background-color: rgb(196, 217, 159); 
+}
